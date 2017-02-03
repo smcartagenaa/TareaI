@@ -1,0 +1,7 @@
+*~
+*.x
+*a.out
+.idea/git-practice-MilenaC.iml
+.idea/modules.xml
+.idea/workspace.xml
+cmake-build-debug/
