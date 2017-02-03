@@ -3,15 +3,23 @@
 //
 
 #include <iostream>
+#include <fstream>
 
 using namespace std;
 
 float sumToN(int n){
+
+    ofstream out ("data.txt");
+
     float sum = 0.0;
     for (int i = 1; i <= n ; ++i) {
         sum += 1.0/i;
-        cout << i << "\t" << sum << endl;
+        out << i << "\t" << sum << endl;
     }
+
+
+    out.close();
+
     return sum;
 }
 
