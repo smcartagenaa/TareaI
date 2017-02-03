@@ -18,6 +18,12 @@ bool isPrime(int number){
 
 int main() {
 
+    for (int i = 500; i <= 1400; ++i) {
+        if (isPrime(i)){
+            cout << i << endl;
+        }
+    }
+
     return 0;
 }
 
