@@ -1,1 +1,2 @@
-Esto es un README hecho con CLion
+Sandra Milena Cartagena Atará
+1015457782
