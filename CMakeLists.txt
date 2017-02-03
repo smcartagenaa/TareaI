@@ -3,5 +3,5 @@ project(git-practice-MilenaC)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES main.cpp)
+set(SOURCE_FILES suma.cpp)
 add_executable(git-practice-MilenaC ${SOURCE_FILES})
