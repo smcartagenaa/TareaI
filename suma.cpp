@@ -17,7 +17,7 @@ float sumToN(int n){
 
 int main() {
 
-    sumToN(10);
+    sumToN(11);
 
     return 0;
 }
